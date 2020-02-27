@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/502e1cdaef.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="/icon.png" type="image/png">
+    <title>Project</title>
+</head>
+
+<body>
+
+    <!---------------------------------------------NAV MANU-------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light justifiy-content-center"
+        style="background-color: white;">
+        <a href="#" class="navbar-brand"><img src="./src/img/mainlogo12.png" width="140" height="100" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav mr auto nav__flex">
+
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Про Нас</a> </li>
+                <li class="nav-item">
+                    <a href="#whatwedo" class="nav-link">Наша Мета</a> </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Галерея</a> </li>
+                <li class="nav-item">
+                    <a href="#setup" class="nav-link">Сет Ап</a> </li>
+                <li class="nav-item">
+                    <a href="#join" class="nav-link">Приєднуйся</a> </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Контакти</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <!-----------------------------------SLIDER------------------------------------------------------------------------->
+    <div class="container-fluid slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./src/img/slide 3.jpg" class="d-block w-100" alt="slider">
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/img/slide 2.jpg" class="d-block w-100" alt="slider">
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/img/slide 1.jpg" class="d-block w-100" alt="slider">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!--------------------------------------------ABOUT US-------------------------------------------------------------->
+    <button onclick="topFunction()" id="myBtn" title="to top"><i class="fas fa-arrow-up"></i></button>
+    <!-----------------------------------to top------------------------------>
+    <div class="about__us" id="about">
+        <hr>
+        <h2>Про Нас</h2>
+        <p>Ми - команда однодумців, які об'єдналися заради спільної ідеї створити найкращий і найбезпечніший сноупарк в
+            Східній Європі<br>
+        </p>
+    </div>
+    <!-------------------------------------------CARDS------------------------------------------------------------------>
+    <div class="cards__us">
+        <div class="card" style="width: 18rem;">
+            <img src="./src/img/misha_card.jpg" class="card-img-top" alt="misha">
+            <div class="card-body">
+                <h5 class="card-title">Піцюра Михайло</h5>
+                <p class="card-text">"Після трирічної роботи в Каунерталі я пообіцяв собі створити щось неймовірне і в
+                    себе вдома"</p>
+                <a href="https://www.facebook.com/3.14tsura"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="https://www.instagram.com/3.14tsura/?hl=uk"><i class="fab fa-instagram fa-2x"></i></a>
+
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./src/img/vitja_card.jpg" class="card-img-top" alt="vitja">
+            <div class="card-body">
+                <h5 class="card-title">Алієв Віктор</h5>
+                <p class="card-text">"Врахувавши всі пропозиції у мене не було жодного сумніву що
+                    у нас все получится"</p>
+                <a href="https://www.facebook.com/victor.alyeyev"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="https://www.instagram.com/excessu_d/?hl=uk"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./src/img/du_card.jpg" class="card-img-top" alt="vlad">
+            <div class="card-body">
+                <h5 class="card-title">Думин Владислав</h5>
+                <p class="card-text">"Тільки завдяки спільним зусиллям нам вдалось досягти успіху"</p>
+                <a href="https://www.facebook.com/dumin.vlad"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="https://www.instagram.com/yungduuuu/?hl=uk"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------WHAT WE DO----------------------------------------------------->
+    <div class="whatwedo__us" id="whatwedo">
+        <hr>
+        <h2>Наша Мета</h2>
+        <p>З моменту відкриття сноупарку ми працює для того
+            щоб кожна фігура та кікер були в ідеальному стані, а головне безпечним для вас. А після закінчення катання
+            ви неодноразово поверталися сюди</p>
+    </div>
+    <!-------------------------------------------GALLERY-------------------------------------------------------->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <img src="./src/img/Layer 49_1.png" alt="layer" class="w-100">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <h4 class="gallery-title">Техніка</h4>
+                    <p class="gallery-text">В нашому розпорядженні є декілька ратраків, що дають змогу для втілення
+                        найскладніших ідей</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <img src="./src/img/Layer 49_2.png" alt="layer" class="w-100">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <h4 class="gallery-title">Інструмент</h4>
+                    <p class="gallery-text">Всі засоби які знаходятся у руках шейперів виготовлені ексклюзивно для гк
+                        "Буковель"</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <img src="./src/img/Layer 49__3.png" alt="layer" class="w-100">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <h4 class="gallery-title">Досвід</h4>
+                    <p class="gallery-text">Багаторічний досвід та неодноразове стажування у кращих сноупарках Австрії
+                        та Швейцарії допомогли
+                        перенести технології і в Україну.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--------------------new gallery-------------------------------------->
+    <div class="gallery__new" id="gallery">
+        <hr>
+        <h2>Галерея</h2>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <img src="./src/img/1q.jpg" alt="layer" class="w-100">
+                    </div>
+
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <img src="./src/img/6.jpg" alt="layer" class="w-100">
+                    </div>
+
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <img src="./src/img/3.jpg" alt="layer" class="w-100">
+                    </div>
+
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <img src="./src/img/5.jpg" alt="layer" class="w-100">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <img src="./src/img/2.jpg" alt="layer" class="w-100">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <img src="./src/img/7.jpg" alt="layer" class="w-100">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------filte----------------------------------------------->
+    <div class="filter__gallery" id="setup">
+        <div class="gallery__title">
+            <hr>
+            <h3>Сет Ап</h3>
+        </div>
+        <div class="container-features">
+            <div class="features-menu">
+                <ul class="menu-list">
+                    <li class="active" data-filter="*">ALL</li>
+
+                    <li data-filter=".kickers">Kickers</li>
+
+                    <li data-filter=".rails">Rails</li>
+                    <li data-filter=".boxes">Boxes</li>
+                    <li data-filter=".others">Others</li>
+                </ul>
+            </div>
+            <div class="features__items">
+                <div class="item kickers">
+                    <img src="./src/isotop/jumps2.jpeg" alt="">
+                </div>
+                <div class="item rails">
+                    <img src="./src/isotop/kink1.jpg" alt="">
+                </div>
+                <div class="item boxes">
+                    <img src="./src/isotop/boxes2.jpg" alt="">
+                </div>
+                <div class="item others">
+                    <img src="./src/isotop/other1.jpg" alt="">
+                </div>
+
+                <div class="item kickers">
+                    <img src="./src/isotop/jumps3.jpg" alt="">
+                </div>
+                <div class="item rails">
+                    <img src="./src/isotop/rails.jpg" alt="">
+                </div>
+                <div class="item boxes">
+                    <img src="./src/isotop/boxes3.jpg" alt="">
+                </div>
+                <div class="item others">
+                    <img src="./src/isotop/other2.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------JOIN US------------------------------------------------------------------->
+
+    <div class="join__us" id="join">
+        <div class="join__wrapper">
+            <hr>
+            <h3>Приєднуйся До Нас</h3>
+            <p>Якщо ти бажаєш стати частиною команди однодумців, ми завжди раді!
+            </p>
+            <form role="form" class="form-inline">
+                <div class="form-group">
+                    <label for="name"></label>
+                    <input type="name" class="form-control" id="email" placeholder="Ім'я:" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone"></label>
+                    <input type="phone" class="form-control" id="pass" placeholder="Номер телефону:" required>
+                </div>
+                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">Клік</button>
+            </form>
+        </div>
+        <!----------------------------------------- Modal------------------------------------------------------>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Дякую</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Ваше зверення прийняте і буде оброблене найближчим часом</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------MAP--------------------------------------------------------->
+    <div id="map">
+    </div>
+    <!-------------------------------------------FOOTER-------------->
+
+    <div class="form__wrapper">
+        <div class="contact___footer">
+            <h3 class="contact__title">Зв'яжіться з нами</h3>
+            <div class="contact__form">
+                <div class="contact___text">
+                    <div class="text__item"><i class="fas fa-map-marker-alt fa-2x"></i><span>&nbsp;гк.Буковель
+                            (траса
+                            8А)</span></div>
+                    <div class="text__item"><i class="fas fa-mobile-alt fa-2x"></i>&nbsp;+380342-595-546</div>
+                    <div class="text__item"><i class="far fa-envelope fa-2x"></i>&nbsp;bukovelspk@gmail.com
+                    </div>
+                    <div class="text__item"><i class="far fa-clock fa-2x"></i>&nbsp;09:00-16:30</div>
+                </div>
+                <form action="#">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <button class="contact-btn" type="submit">ВІДПРАВИТИ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__content" id="contact">
+        <img src="./src/img/qqqqqq.png" alt="logo">
+
+        <button class="bottom-btn" type="button">Наші Контакти</button>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/snowparkbukovel/"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/Bukovel/"><i class="fab fa-instagram fa-2x"
+                    style="color: #e64859;"></i></a>
+            <a href="https://t.me/bukovel_resort"><i class="fab fa-telegram fa-2x"></i></a>
+            <a href="https://www.youtube.com/results?search_query=bukovel"><i class="fab fa-youtube fa-2x"
+                    style="color: red;"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyrights © 2020 Bukovel</p>
+    </div>
+
+
+
+    <!------------------------------------------SCRIPTS--------------------------------------------------------->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@2/dist/isotope.pkgd.min.js"></script>
+    <!----------------------------------------------------------------------------------------------------------------->
+    <script src="./script.js"></script>
+    <!---------------------------------------------MAPS---------------------------------------------------------------->
+    <script>
+        function initMap() {
+            var uluru = { lat: 48.369337, lng: 24.395592 };
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 15, center: uluru });
+            var marker = new google.maps.Marker({ position: uluru, map: map });
+        }
+        button.onclick = function () { };
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDCApeoMpSTQxvz14Yhh09zlsw8FhB2ck&callback=initMap">
+        </script>
+</body>
+
+</html>
